@@ -1,0 +1,621 @@
+main.o: main.cpp Engine.h Headers.h /usr/include/SDL/SDL.h \
+  /usr/include/SDL/SDL_main.h /usr/include/SDL/SDL_stdinc.h \
+  /usr/include/SDL/SDL_config.h /usr/include/SDL/SDL_platform.h \
+  /usr/include/sys/types.h /usr/include/features.h \
+  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+  /usr/include/time.h /usr/lib/gcc/i486-linux-gnu/4.3.3/include/stddef.h \
+  /usr/include/endian.h /usr/include/bits/endian.h \
+  /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/sigset.h \
+  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+  /usr/include/bits/pthreadtypes.h /usr/include/stdio.h \
+  /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+  /usr/lib/gcc/i486-linux-gnu/4.3.3/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h /usr/include/xlocale.h \
+  /usr/include/alloca.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/inttypes.h /usr/include/stdint.h /usr/include/bits/wchar.h \
+  /usr/include/ctype.h /usr/include/iconv.h /usr/include/SDL/begin_code.h \
+  /usr/include/SDL/close_code.h /usr/include/SDL/SDL_audio.h \
+  /usr/include/SDL/SDL_error.h /usr/include/SDL/SDL_endian.h \
+  /usr/include/SDL/SDL_mutex.h /usr/include/SDL/SDL_thread.h \
+  /usr/include/SDL/SDL_rwops.h /usr/include/SDL/SDL_cdrom.h \
+  /usr/include/SDL/SDL_cpuinfo.h /usr/include/SDL/SDL_events.h \
+  /usr/include/SDL/SDL_active.h /usr/include/SDL/SDL_keyboard.h \
+  /usr/include/SDL/SDL_keysym.h /usr/include/SDL/SDL_mouse.h \
+  /usr/include/SDL/SDL_video.h /usr/include/SDL/SDL_joystick.h \
+  /usr/include/SDL/SDL_quit.h /usr/include/SDL/SDL_loadso.h \
+  /usr/include/SDL/SDL_timer.h /usr/include/SDL/SDL_version.h \
+  /usr/include/SDL/SDL_opengl.h /usr/include/GL/gl.h \
+  /usr/include/GL/glext.h /usr/include/GL/glu.h \
+  /usr/include/SDL/SDL_image.h /usr/include/SDL/SDL.h \
+  /usr/include/c++/4.3/string \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/c++config.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/4.3/bits/stringfwd.h \
+  /usr/include/c++/4.3/bits/char_traits.h \
+  /usr/include/c++/4.3/bits/stl_algobase.h /usr/include/c++/4.3/cstddef \
+  /usr/include/c++/4.3/bits/functexcept.h \
+  /usr/include/c++/4.3/exception_defines.h \
+  /usr/include/c++/4.3/bits/cpp_type_traits.h \
+  /usr/include/c++/4.3/ext/type_traits.h \
+  /usr/include/c++/4.3/ext/numeric_traits.h \
+  /usr/include/c++/4.3/bits/stl_pair.h \
+  /usr/include/c++/4.3/bits/stl_move.h \
+  /usr/include/c++/4.3/bits/concept_check.h \
+  /usr/include/c++/4.3/bits/stl_iterator_base_types.h \
+  /usr/include/c++/4.3/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/4.3/bits/stl_iterator.h \
+  /usr/include/c++/4.3/debug/debug.h /usr/include/c++/4.3/bits/postypes.h \
+  /usr/include/c++/4.3/cwchar /usr/include/c++/4.3/cstdio \
+  /usr/include/c++/4.3/bits/allocator.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/4.3/ext/new_allocator.h /usr/include/c++/4.3/new \
+  /usr/include/c++/4.3/exception /usr/include/c++/4.3/bits/localefwd.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/4.3/clocale /usr/include/locale.h \
+  /usr/include/bits/locale.h /usr/include/c++/4.3/iosfwd \
+  /usr/include/c++/4.3/cctype /usr/include/c++/4.3/bits/ostream_insert.h \
+  /usr/include/c++/4.3/cxxabi-forced.h \
+  /usr/include/c++/4.3/bits/stl_function.h \
+  /usr/include/c++/4.3/backward/binders.h \
+  /usr/include/c++/4.3/bits/basic_string.h \
+  /usr/include/c++/4.3/ext/atomicity.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/gthr.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/gthr-default.h \
+  /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+  /usr/include/signal.h /usr/include/bits/setjmp.h /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h /usr/include/getopt.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/4.3/bits/basic_string.tcc Input/Keyboard.h \
+  Input/../Headers.h Input/Mouse.h Input/../Utility/TextureLoader.h \
+  Input/../Utility/../Headers.h Input/../Utility/../Errors/ErrorLog.h \
+  Input/../Utility/../Errors/../Headers.h Utility/Timer.h \
+  Utility/../Headers.h Utility/TextureLoader.h Utility/Font.h \
+  Utility/TextureLoader.h Utility/../Errors/ErrorLog.h Errors/ErrorLog.h
+Engine.o: Engine.cpp Engine.h Headers.h /usr/include/SDL/SDL.h \
+  /usr/include/SDL/SDL_main.h /usr/include/SDL/SDL_stdinc.h \
+  /usr/include/SDL/SDL_config.h /usr/include/SDL/SDL_platform.h \
+  /usr/include/sys/types.h /usr/include/features.h \
+  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+  /usr/include/time.h /usr/lib/gcc/i486-linux-gnu/4.3.3/include/stddef.h \
+  /usr/include/endian.h /usr/include/bits/endian.h \
+  /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/sigset.h \
+  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+  /usr/include/bits/pthreadtypes.h /usr/include/stdio.h \
+  /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+  /usr/lib/gcc/i486-linux-gnu/4.3.3/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h /usr/include/xlocale.h \
+  /usr/include/alloca.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/inttypes.h /usr/include/stdint.h /usr/include/bits/wchar.h \
+  /usr/include/ctype.h /usr/include/iconv.h /usr/include/SDL/begin_code.h \
+  /usr/include/SDL/close_code.h /usr/include/SDL/SDL_audio.h \
+  /usr/include/SDL/SDL_error.h /usr/include/SDL/SDL_endian.h \
+  /usr/include/SDL/SDL_mutex.h /usr/include/SDL/SDL_thread.h \
+  /usr/include/SDL/SDL_rwops.h /usr/include/SDL/SDL_cdrom.h \
+  /usr/include/SDL/SDL_cpuinfo.h /usr/include/SDL/SDL_events.h \
+  /usr/include/SDL/SDL_active.h /usr/include/SDL/SDL_keyboard.h \
+  /usr/include/SDL/SDL_keysym.h /usr/include/SDL/SDL_mouse.h \
+  /usr/include/SDL/SDL_video.h /usr/include/SDL/SDL_joystick.h \
+  /usr/include/SDL/SDL_quit.h /usr/include/SDL/SDL_loadso.h \
+  /usr/include/SDL/SDL_timer.h /usr/include/SDL/SDL_version.h \
+  /usr/include/SDL/SDL_opengl.h /usr/include/GL/gl.h \
+  /usr/include/GL/glext.h /usr/include/GL/glu.h \
+  /usr/include/SDL/SDL_image.h /usr/include/SDL/SDL.h \
+  /usr/include/c++/4.3/string \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/c++config.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/4.3/bits/stringfwd.h \
+  /usr/include/c++/4.3/bits/char_traits.h \
+  /usr/include/c++/4.3/bits/stl_algobase.h /usr/include/c++/4.3/cstddef \
+  /usr/include/c++/4.3/bits/functexcept.h \
+  /usr/include/c++/4.3/exception_defines.h \
+  /usr/include/c++/4.3/bits/cpp_type_traits.h \
+  /usr/include/c++/4.3/ext/type_traits.h \
+  /usr/include/c++/4.3/ext/numeric_traits.h \
+  /usr/include/c++/4.3/bits/stl_pair.h \
+  /usr/include/c++/4.3/bits/stl_move.h \
+  /usr/include/c++/4.3/bits/concept_check.h \
+  /usr/include/c++/4.3/bits/stl_iterator_base_types.h \
+  /usr/include/c++/4.3/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/4.3/bits/stl_iterator.h \
+  /usr/include/c++/4.3/debug/debug.h /usr/include/c++/4.3/bits/postypes.h \
+  /usr/include/c++/4.3/cwchar /usr/include/c++/4.3/cstdio \
+  /usr/include/c++/4.3/bits/allocator.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/4.3/ext/new_allocator.h /usr/include/c++/4.3/new \
+  /usr/include/c++/4.3/exception /usr/include/c++/4.3/bits/localefwd.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/4.3/clocale /usr/include/locale.h \
+  /usr/include/bits/locale.h /usr/include/c++/4.3/iosfwd \
+  /usr/include/c++/4.3/cctype /usr/include/c++/4.3/bits/ostream_insert.h \
+  /usr/include/c++/4.3/cxxabi-forced.h \
+  /usr/include/c++/4.3/bits/stl_function.h \
+  /usr/include/c++/4.3/backward/binders.h \
+  /usr/include/c++/4.3/bits/basic_string.h \
+  /usr/include/c++/4.3/ext/atomicity.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/gthr.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/gthr-default.h \
+  /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+  /usr/include/signal.h /usr/include/bits/setjmp.h /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h /usr/include/getopt.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/4.3/bits/basic_string.tcc Input/Keyboard.h \
+  Input/../Headers.h Input/Mouse.h Input/../Utility/TextureLoader.h \
+  Input/../Utility/../Headers.h Input/../Utility/../Errors/ErrorLog.h \
+  Input/../Utility/../Errors/../Headers.h Utility/Timer.h \
+  Utility/../Headers.h Utility/TextureLoader.h Utility/Font.h \
+  Utility/TextureLoader.h Utility/../Errors/ErrorLog.h Errors/ErrorLog.h
+Keyboard.o: Input/Keyboard.cpp Input/Keyboard.h Input/../Headers.h \
+  /usr/include/SDL/SDL.h /usr/include/SDL/SDL_main.h \
+  /usr/include/SDL/SDL_stdinc.h /usr/include/SDL/SDL_config.h \
+  /usr/include/SDL/SDL_platform.h /usr/include/sys/types.h \
+  /usr/include/features.h /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-32.h /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h /usr/include/time.h \
+  /usr/lib/gcc/i486-linux-gnu/4.3.3/include/stddef.h \
+  /usr/include/endian.h /usr/include/bits/endian.h \
+  /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/sigset.h \
+  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+  /usr/include/bits/pthreadtypes.h /usr/include/stdio.h \
+  /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+  /usr/lib/gcc/i486-linux-gnu/4.3.3/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h /usr/include/xlocale.h \
+  /usr/include/alloca.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/inttypes.h /usr/include/stdint.h /usr/include/bits/wchar.h \
+  /usr/include/ctype.h /usr/include/iconv.h /usr/include/SDL/begin_code.h \
+  /usr/include/SDL/close_code.h /usr/include/SDL/SDL_audio.h \
+  /usr/include/SDL/SDL_error.h /usr/include/SDL/SDL_endian.h \
+  /usr/include/SDL/SDL_mutex.h /usr/include/SDL/SDL_thread.h \
+  /usr/include/SDL/SDL_rwops.h /usr/include/SDL/SDL_cdrom.h \
+  /usr/include/SDL/SDL_cpuinfo.h /usr/include/SDL/SDL_events.h \
+  /usr/include/SDL/SDL_active.h /usr/include/SDL/SDL_keyboard.h \
+  /usr/include/SDL/SDL_keysym.h /usr/include/SDL/SDL_mouse.h \
+  /usr/include/SDL/SDL_video.h /usr/include/SDL/SDL_joystick.h \
+  /usr/include/SDL/SDL_quit.h /usr/include/SDL/SDL_loadso.h \
+  /usr/include/SDL/SDL_timer.h /usr/include/SDL/SDL_version.h \
+  /usr/include/SDL/SDL_opengl.h /usr/include/GL/gl.h \
+  /usr/include/GL/glext.h /usr/include/GL/glu.h \
+  /usr/include/SDL/SDL_image.h /usr/include/SDL/SDL.h \
+  /usr/include/c++/4.3/string \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/c++config.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/4.3/bits/stringfwd.h \
+  /usr/include/c++/4.3/bits/char_traits.h \
+  /usr/include/c++/4.3/bits/stl_algobase.h /usr/include/c++/4.3/cstddef \
+  /usr/include/c++/4.3/bits/functexcept.h \
+  /usr/include/c++/4.3/exception_defines.h \
+  /usr/include/c++/4.3/bits/cpp_type_traits.h \
+  /usr/include/c++/4.3/ext/type_traits.h \
+  /usr/include/c++/4.3/ext/numeric_traits.h \
+  /usr/include/c++/4.3/bits/stl_pair.h \
+  /usr/include/c++/4.3/bits/stl_move.h \
+  /usr/include/c++/4.3/bits/concept_check.h \
+  /usr/include/c++/4.3/bits/stl_iterator_base_types.h \
+  /usr/include/c++/4.3/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/4.3/bits/stl_iterator.h \
+  /usr/include/c++/4.3/debug/debug.h /usr/include/c++/4.3/bits/postypes.h \
+  /usr/include/c++/4.3/cwchar /usr/include/c++/4.3/cstdio \
+  /usr/include/c++/4.3/bits/allocator.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/4.3/ext/new_allocator.h /usr/include/c++/4.3/new \
+  /usr/include/c++/4.3/exception /usr/include/c++/4.3/bits/localefwd.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/4.3/clocale /usr/include/locale.h \
+  /usr/include/bits/locale.h /usr/include/c++/4.3/iosfwd \
+  /usr/include/c++/4.3/cctype /usr/include/c++/4.3/bits/ostream_insert.h \
+  /usr/include/c++/4.3/cxxabi-forced.h \
+  /usr/include/c++/4.3/bits/stl_function.h \
+  /usr/include/c++/4.3/backward/binders.h \
+  /usr/include/c++/4.3/bits/basic_string.h \
+  /usr/include/c++/4.3/ext/atomicity.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/gthr.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/gthr-default.h \
+  /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+  /usr/include/signal.h /usr/include/bits/setjmp.h /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h /usr/include/getopt.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/4.3/bits/basic_string.tcc
+Mouse.o: Input/Mouse.cpp Input/Mouse.h Input/../Headers.h \
+  /usr/include/SDL/SDL.h /usr/include/SDL/SDL_main.h \
+  /usr/include/SDL/SDL_stdinc.h /usr/include/SDL/SDL_config.h \
+  /usr/include/SDL/SDL_platform.h /usr/include/sys/types.h \
+  /usr/include/features.h /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-32.h /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h /usr/include/time.h \
+  /usr/lib/gcc/i486-linux-gnu/4.3.3/include/stddef.h \
+  /usr/include/endian.h /usr/include/bits/endian.h \
+  /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/sigset.h \
+  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+  /usr/include/bits/pthreadtypes.h /usr/include/stdio.h \
+  /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+  /usr/lib/gcc/i486-linux-gnu/4.3.3/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h /usr/include/xlocale.h \
+  /usr/include/alloca.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/inttypes.h /usr/include/stdint.h /usr/include/bits/wchar.h \
+  /usr/include/ctype.h /usr/include/iconv.h /usr/include/SDL/begin_code.h \
+  /usr/include/SDL/close_code.h /usr/include/SDL/SDL_audio.h \
+  /usr/include/SDL/SDL_error.h /usr/include/SDL/SDL_endian.h \
+  /usr/include/SDL/SDL_mutex.h /usr/include/SDL/SDL_thread.h \
+  /usr/include/SDL/SDL_rwops.h /usr/include/SDL/SDL_cdrom.h \
+  /usr/include/SDL/SDL_cpuinfo.h /usr/include/SDL/SDL_events.h \
+  /usr/include/SDL/SDL_active.h /usr/include/SDL/SDL_keyboard.h \
+  /usr/include/SDL/SDL_keysym.h /usr/include/SDL/SDL_mouse.h \
+  /usr/include/SDL/SDL_video.h /usr/include/SDL/SDL_joystick.h \
+  /usr/include/SDL/SDL_quit.h /usr/include/SDL/SDL_loadso.h \
+  /usr/include/SDL/SDL_timer.h /usr/include/SDL/SDL_version.h \
+  /usr/include/SDL/SDL_opengl.h /usr/include/GL/gl.h \
+  /usr/include/GL/glext.h /usr/include/GL/glu.h \
+  /usr/include/SDL/SDL_image.h /usr/include/SDL/SDL.h \
+  /usr/include/c++/4.3/string \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/c++config.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/4.3/bits/stringfwd.h \
+  /usr/include/c++/4.3/bits/char_traits.h \
+  /usr/include/c++/4.3/bits/stl_algobase.h /usr/include/c++/4.3/cstddef \
+  /usr/include/c++/4.3/bits/functexcept.h \
+  /usr/include/c++/4.3/exception_defines.h \
+  /usr/include/c++/4.3/bits/cpp_type_traits.h \
+  /usr/include/c++/4.3/ext/type_traits.h \
+  /usr/include/c++/4.3/ext/numeric_traits.h \
+  /usr/include/c++/4.3/bits/stl_pair.h \
+  /usr/include/c++/4.3/bits/stl_move.h \
+  /usr/include/c++/4.3/bits/concept_check.h \
+  /usr/include/c++/4.3/bits/stl_iterator_base_types.h \
+  /usr/include/c++/4.3/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/4.3/bits/stl_iterator.h \
+  /usr/include/c++/4.3/debug/debug.h /usr/include/c++/4.3/bits/postypes.h \
+  /usr/include/c++/4.3/cwchar /usr/include/c++/4.3/cstdio \
+  /usr/include/c++/4.3/bits/allocator.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/4.3/ext/new_allocator.h /usr/include/c++/4.3/new \
+  /usr/include/c++/4.3/exception /usr/include/c++/4.3/bits/localefwd.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/4.3/clocale /usr/include/locale.h \
+  /usr/include/bits/locale.h /usr/include/c++/4.3/iosfwd \
+  /usr/include/c++/4.3/cctype /usr/include/c++/4.3/bits/ostream_insert.h \
+  /usr/include/c++/4.3/cxxabi-forced.h \
+  /usr/include/c++/4.3/bits/stl_function.h \
+  /usr/include/c++/4.3/backward/binders.h \
+  /usr/include/c++/4.3/bits/basic_string.h \
+  /usr/include/c++/4.3/ext/atomicity.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/gthr.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/gthr-default.h \
+  /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+  /usr/include/signal.h /usr/include/bits/setjmp.h /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h /usr/include/getopt.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/4.3/bits/basic_string.tcc \
+  Input/../Utility/TextureLoader.h Input/../Utility/../Headers.h \
+  Input/../Utility/../Errors/ErrorLog.h \
+  Input/../Utility/../Errors/../Headers.h
+Timer.o: Utility/Timer.cpp Utility/Timer.h Utility/../Headers.h \
+  /usr/include/SDL/SDL.h /usr/include/SDL/SDL_main.h \
+  /usr/include/SDL/SDL_stdinc.h /usr/include/SDL/SDL_config.h \
+  /usr/include/SDL/SDL_platform.h /usr/include/sys/types.h \
+  /usr/include/features.h /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-32.h /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h /usr/include/time.h \
+  /usr/lib/gcc/i486-linux-gnu/4.3.3/include/stddef.h \
+  /usr/include/endian.h /usr/include/bits/endian.h \
+  /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/sigset.h \
+  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+  /usr/include/bits/pthreadtypes.h /usr/include/stdio.h \
+  /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+  /usr/lib/gcc/i486-linux-gnu/4.3.3/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h /usr/include/xlocale.h \
+  /usr/include/alloca.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/inttypes.h /usr/include/stdint.h /usr/include/bits/wchar.h \
+  /usr/include/ctype.h /usr/include/iconv.h /usr/include/SDL/begin_code.h \
+  /usr/include/SDL/close_code.h /usr/include/SDL/SDL_audio.h \
+  /usr/include/SDL/SDL_error.h /usr/include/SDL/SDL_endian.h \
+  /usr/include/SDL/SDL_mutex.h /usr/include/SDL/SDL_thread.h \
+  /usr/include/SDL/SDL_rwops.h /usr/include/SDL/SDL_cdrom.h \
+  /usr/include/SDL/SDL_cpuinfo.h /usr/include/SDL/SDL_events.h \
+  /usr/include/SDL/SDL_active.h /usr/include/SDL/SDL_keyboard.h \
+  /usr/include/SDL/SDL_keysym.h /usr/include/SDL/SDL_mouse.h \
+  /usr/include/SDL/SDL_video.h /usr/include/SDL/SDL_joystick.h \
+  /usr/include/SDL/SDL_quit.h /usr/include/SDL/SDL_loadso.h \
+  /usr/include/SDL/SDL_timer.h /usr/include/SDL/SDL_version.h \
+  /usr/include/SDL/SDL_opengl.h /usr/include/GL/gl.h \
+  /usr/include/GL/glext.h /usr/include/GL/glu.h \
+  /usr/include/SDL/SDL_image.h /usr/include/SDL/SDL.h \
+  /usr/include/c++/4.3/string \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/c++config.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/4.3/bits/stringfwd.h \
+  /usr/include/c++/4.3/bits/char_traits.h \
+  /usr/include/c++/4.3/bits/stl_algobase.h /usr/include/c++/4.3/cstddef \
+  /usr/include/c++/4.3/bits/functexcept.h \
+  /usr/include/c++/4.3/exception_defines.h \
+  /usr/include/c++/4.3/bits/cpp_type_traits.h \
+  /usr/include/c++/4.3/ext/type_traits.h \
+  /usr/include/c++/4.3/ext/numeric_traits.h \
+  /usr/include/c++/4.3/bits/stl_pair.h \
+  /usr/include/c++/4.3/bits/stl_move.h \
+  /usr/include/c++/4.3/bits/concept_check.h \
+  /usr/include/c++/4.3/bits/stl_iterator_base_types.h \
+  /usr/include/c++/4.3/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/4.3/bits/stl_iterator.h \
+  /usr/include/c++/4.3/debug/debug.h /usr/include/c++/4.3/bits/postypes.h \
+  /usr/include/c++/4.3/cwchar /usr/include/c++/4.3/cstdio \
+  /usr/include/c++/4.3/bits/allocator.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/4.3/ext/new_allocator.h /usr/include/c++/4.3/new \
+  /usr/include/c++/4.3/exception /usr/include/c++/4.3/bits/localefwd.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/4.3/clocale /usr/include/locale.h \
+  /usr/include/bits/locale.h /usr/include/c++/4.3/iosfwd \
+  /usr/include/c++/4.3/cctype /usr/include/c++/4.3/bits/ostream_insert.h \
+  /usr/include/c++/4.3/cxxabi-forced.h \
+  /usr/include/c++/4.3/bits/stl_function.h \
+  /usr/include/c++/4.3/backward/binders.h \
+  /usr/include/c++/4.3/bits/basic_string.h \
+  /usr/include/c++/4.3/ext/atomicity.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/gthr.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/gthr-default.h \
+  /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+  /usr/include/signal.h /usr/include/bits/setjmp.h /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h /usr/include/getopt.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/4.3/bits/basic_string.tcc
+TextureLoader.o: Utility/TextureLoader.cpp Utility/TextureLoader.h \
+  Utility/../Headers.h /usr/include/SDL/SDL.h /usr/include/SDL/SDL_main.h \
+  /usr/include/SDL/SDL_stdinc.h /usr/include/SDL/SDL_config.h \
+  /usr/include/SDL/SDL_platform.h /usr/include/sys/types.h \
+  /usr/include/features.h /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-32.h /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h /usr/include/time.h \
+  /usr/lib/gcc/i486-linux-gnu/4.3.3/include/stddef.h \
+  /usr/include/endian.h /usr/include/bits/endian.h \
+  /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/sigset.h \
+  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+  /usr/include/bits/pthreadtypes.h /usr/include/stdio.h \
+  /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+  /usr/lib/gcc/i486-linux-gnu/4.3.3/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h /usr/include/xlocale.h \
+  /usr/include/alloca.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/inttypes.h /usr/include/stdint.h /usr/include/bits/wchar.h \
+  /usr/include/ctype.h /usr/include/iconv.h /usr/include/SDL/begin_code.h \
+  /usr/include/SDL/close_code.h /usr/include/SDL/SDL_audio.h \
+  /usr/include/SDL/SDL_error.h /usr/include/SDL/SDL_endian.h \
+  /usr/include/SDL/SDL_mutex.h /usr/include/SDL/SDL_thread.h \
+  /usr/include/SDL/SDL_rwops.h /usr/include/SDL/SDL_cdrom.h \
+  /usr/include/SDL/SDL_cpuinfo.h /usr/include/SDL/SDL_events.h \
+  /usr/include/SDL/SDL_active.h /usr/include/SDL/SDL_keyboard.h \
+  /usr/include/SDL/SDL_keysym.h /usr/include/SDL/SDL_mouse.h \
+  /usr/include/SDL/SDL_video.h /usr/include/SDL/SDL_joystick.h \
+  /usr/include/SDL/SDL_quit.h /usr/include/SDL/SDL_loadso.h \
+  /usr/include/SDL/SDL_timer.h /usr/include/SDL/SDL_version.h \
+  /usr/include/SDL/SDL_opengl.h /usr/include/GL/gl.h \
+  /usr/include/GL/glext.h /usr/include/GL/glu.h \
+  /usr/include/SDL/SDL_image.h /usr/include/SDL/SDL.h \
+  /usr/include/c++/4.3/string \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/c++config.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/4.3/bits/stringfwd.h \
+  /usr/include/c++/4.3/bits/char_traits.h \
+  /usr/include/c++/4.3/bits/stl_algobase.h /usr/include/c++/4.3/cstddef \
+  /usr/include/c++/4.3/bits/functexcept.h \
+  /usr/include/c++/4.3/exception_defines.h \
+  /usr/include/c++/4.3/bits/cpp_type_traits.h \
+  /usr/include/c++/4.3/ext/type_traits.h \
+  /usr/include/c++/4.3/ext/numeric_traits.h \
+  /usr/include/c++/4.3/bits/stl_pair.h \
+  /usr/include/c++/4.3/bits/stl_move.h \
+  /usr/include/c++/4.3/bits/concept_check.h \
+  /usr/include/c++/4.3/bits/stl_iterator_base_types.h \
+  /usr/include/c++/4.3/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/4.3/bits/stl_iterator.h \
+  /usr/include/c++/4.3/debug/debug.h /usr/include/c++/4.3/bits/postypes.h \
+  /usr/include/c++/4.3/cwchar /usr/include/c++/4.3/cstdio \
+  /usr/include/c++/4.3/bits/allocator.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/4.3/ext/new_allocator.h /usr/include/c++/4.3/new \
+  /usr/include/c++/4.3/exception /usr/include/c++/4.3/bits/localefwd.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/4.3/clocale /usr/include/locale.h \
+  /usr/include/bits/locale.h /usr/include/c++/4.3/iosfwd \
+  /usr/include/c++/4.3/cctype /usr/include/c++/4.3/bits/ostream_insert.h \
+  /usr/include/c++/4.3/cxxabi-forced.h \
+  /usr/include/c++/4.3/bits/stl_function.h \
+  /usr/include/c++/4.3/backward/binders.h \
+  /usr/include/c++/4.3/bits/basic_string.h \
+  /usr/include/c++/4.3/ext/atomicity.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/gthr.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/gthr-default.h \
+  /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+  /usr/include/signal.h /usr/include/bits/setjmp.h /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h /usr/include/getopt.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/4.3/bits/basic_string.tcc Utility/../Errors/ErrorLog.h \
+  Utility/../Errors/../Headers.h
+Font.o: Utility/Font.cpp Utility/Font.h Utility/../Headers.h \
+  /usr/include/SDL/SDL.h /usr/include/SDL/SDL_main.h \
+  /usr/include/SDL/SDL_stdinc.h /usr/include/SDL/SDL_config.h \
+  /usr/include/SDL/SDL_platform.h /usr/include/sys/types.h \
+  /usr/include/features.h /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-32.h /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h /usr/include/time.h \
+  /usr/lib/gcc/i486-linux-gnu/4.3.3/include/stddef.h \
+  /usr/include/endian.h /usr/include/bits/endian.h \
+  /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/sigset.h \
+  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+  /usr/include/bits/pthreadtypes.h /usr/include/stdio.h \
+  /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+  /usr/lib/gcc/i486-linux-gnu/4.3.3/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h /usr/include/xlocale.h \
+  /usr/include/alloca.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/inttypes.h /usr/include/stdint.h /usr/include/bits/wchar.h \
+  /usr/include/ctype.h /usr/include/iconv.h /usr/include/SDL/begin_code.h \
+  /usr/include/SDL/close_code.h /usr/include/SDL/SDL_audio.h \
+  /usr/include/SDL/SDL_error.h /usr/include/SDL/SDL_endian.h \
+  /usr/include/SDL/SDL_mutex.h /usr/include/SDL/SDL_thread.h \
+  /usr/include/SDL/SDL_rwops.h /usr/include/SDL/SDL_cdrom.h \
+  /usr/include/SDL/SDL_cpuinfo.h /usr/include/SDL/SDL_events.h \
+  /usr/include/SDL/SDL_active.h /usr/include/SDL/SDL_keyboard.h \
+  /usr/include/SDL/SDL_keysym.h /usr/include/SDL/SDL_mouse.h \
+  /usr/include/SDL/SDL_video.h /usr/include/SDL/SDL_joystick.h \
+  /usr/include/SDL/SDL_quit.h /usr/include/SDL/SDL_loadso.h \
+  /usr/include/SDL/SDL_timer.h /usr/include/SDL/SDL_version.h \
+  /usr/include/SDL/SDL_opengl.h /usr/include/GL/gl.h \
+  /usr/include/GL/glext.h /usr/include/GL/glu.h \
+  /usr/include/SDL/SDL_image.h /usr/include/SDL/SDL.h \
+  /usr/include/c++/4.3/string \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/c++config.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/4.3/bits/stringfwd.h \
+  /usr/include/c++/4.3/bits/char_traits.h \
+  /usr/include/c++/4.3/bits/stl_algobase.h /usr/include/c++/4.3/cstddef \
+  /usr/include/c++/4.3/bits/functexcept.h \
+  /usr/include/c++/4.3/exception_defines.h \
+  /usr/include/c++/4.3/bits/cpp_type_traits.h \
+  /usr/include/c++/4.3/ext/type_traits.h \
+  /usr/include/c++/4.3/ext/numeric_traits.h \
+  /usr/include/c++/4.3/bits/stl_pair.h \
+  /usr/include/c++/4.3/bits/stl_move.h \
+  /usr/include/c++/4.3/bits/concept_check.h \
+  /usr/include/c++/4.3/bits/stl_iterator_base_types.h \
+  /usr/include/c++/4.3/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/4.3/bits/stl_iterator.h \
+  /usr/include/c++/4.3/debug/debug.h /usr/include/c++/4.3/bits/postypes.h \
+  /usr/include/c++/4.3/cwchar /usr/include/c++/4.3/cstdio \
+  /usr/include/c++/4.3/bits/allocator.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/4.3/ext/new_allocator.h /usr/include/c++/4.3/new \
+  /usr/include/c++/4.3/exception /usr/include/c++/4.3/bits/localefwd.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/4.3/clocale /usr/include/locale.h \
+  /usr/include/bits/locale.h /usr/include/c++/4.3/iosfwd \
+  /usr/include/c++/4.3/cctype /usr/include/c++/4.3/bits/ostream_insert.h \
+  /usr/include/c++/4.3/cxxabi-forced.h \
+  /usr/include/c++/4.3/bits/stl_function.h \
+  /usr/include/c++/4.3/backward/binders.h \
+  /usr/include/c++/4.3/bits/basic_string.h \
+  /usr/include/c++/4.3/ext/atomicity.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/gthr.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/gthr-default.h \
+  /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+  /usr/include/signal.h /usr/include/bits/setjmp.h /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h /usr/include/getopt.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/4.3/bits/basic_string.tcc Utility/TextureLoader.h \
+  Utility/../Errors/ErrorLog.h Utility/../Errors/../Headers.h
+ErrorLog.o: Errors/ErrorLog.cpp Errors/ErrorLog.h Errors/../Headers.h \
+  /usr/include/SDL/SDL.h /usr/include/SDL/SDL_main.h \
+  /usr/include/SDL/SDL_stdinc.h /usr/include/SDL/SDL_config.h \
+  /usr/include/SDL/SDL_platform.h /usr/include/sys/types.h \
+  /usr/include/features.h /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-32.h /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h /usr/include/time.h \
+  /usr/lib/gcc/i486-linux-gnu/4.3.3/include/stddef.h \
+  /usr/include/endian.h /usr/include/bits/endian.h \
+  /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+  /usr/include/bits/select.h /usr/include/bits/sigset.h \
+  /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+  /usr/include/bits/pthreadtypes.h /usr/include/stdio.h \
+  /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+  /usr/lib/gcc/i486-linux-gnu/4.3.3/include/stdarg.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h /usr/include/xlocale.h \
+  /usr/include/alloca.h /usr/include/string.h /usr/include/strings.h \
+  /usr/include/inttypes.h /usr/include/stdint.h /usr/include/bits/wchar.h \
+  /usr/include/ctype.h /usr/include/iconv.h /usr/include/SDL/begin_code.h \
+  /usr/include/SDL/close_code.h /usr/include/SDL/SDL_audio.h \
+  /usr/include/SDL/SDL_error.h /usr/include/SDL/SDL_endian.h \
+  /usr/include/SDL/SDL_mutex.h /usr/include/SDL/SDL_thread.h \
+  /usr/include/SDL/SDL_rwops.h /usr/include/SDL/SDL_cdrom.h \
+  /usr/include/SDL/SDL_cpuinfo.h /usr/include/SDL/SDL_events.h \
+  /usr/include/SDL/SDL_active.h /usr/include/SDL/SDL_keyboard.h \
+  /usr/include/SDL/SDL_keysym.h /usr/include/SDL/SDL_mouse.h \
+  /usr/include/SDL/SDL_video.h /usr/include/SDL/SDL_joystick.h \
+  /usr/include/SDL/SDL_quit.h /usr/include/SDL/SDL_loadso.h \
+  /usr/include/SDL/SDL_timer.h /usr/include/SDL/SDL_version.h \
+  /usr/include/SDL/SDL_opengl.h /usr/include/GL/gl.h \
+  /usr/include/GL/glext.h /usr/include/GL/glu.h \
+  /usr/include/SDL/SDL_image.h /usr/include/SDL/SDL.h \
+  /usr/include/c++/4.3/string \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/c++config.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/os_defines.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/cpu_defines.h \
+  /usr/include/c++/4.3/bits/stringfwd.h \
+  /usr/include/c++/4.3/bits/char_traits.h \
+  /usr/include/c++/4.3/bits/stl_algobase.h /usr/include/c++/4.3/cstddef \
+  /usr/include/c++/4.3/bits/functexcept.h \
+  /usr/include/c++/4.3/exception_defines.h \
+  /usr/include/c++/4.3/bits/cpp_type_traits.h \
+  /usr/include/c++/4.3/ext/type_traits.h \
+  /usr/include/c++/4.3/ext/numeric_traits.h \
+  /usr/include/c++/4.3/bits/stl_pair.h \
+  /usr/include/c++/4.3/bits/stl_move.h \
+  /usr/include/c++/4.3/bits/concept_check.h \
+  /usr/include/c++/4.3/bits/stl_iterator_base_types.h \
+  /usr/include/c++/4.3/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/4.3/bits/stl_iterator.h \
+  /usr/include/c++/4.3/debug/debug.h /usr/include/c++/4.3/bits/postypes.h \
+  /usr/include/c++/4.3/cwchar /usr/include/c++/4.3/cstdio \
+  /usr/include/c++/4.3/bits/allocator.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/c++allocator.h \
+  /usr/include/c++/4.3/ext/new_allocator.h /usr/include/c++/4.3/new \
+  /usr/include/c++/4.3/exception /usr/include/c++/4.3/bits/localefwd.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/c++locale.h \
+  /usr/include/c++/4.3/clocale /usr/include/locale.h \
+  /usr/include/bits/locale.h /usr/include/c++/4.3/iosfwd \
+  /usr/include/c++/4.3/cctype /usr/include/c++/4.3/bits/ostream_insert.h \
+  /usr/include/c++/4.3/cxxabi-forced.h \
+  /usr/include/c++/4.3/bits/stl_function.h \
+  /usr/include/c++/4.3/backward/binders.h \
+  /usr/include/c++/4.3/bits/basic_string.h \
+  /usr/include/c++/4.3/ext/atomicity.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/gthr.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/gthr-default.h \
+  /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+  /usr/include/signal.h /usr/include/bits/setjmp.h /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h /usr/include/getopt.h \
+  /usr/include/c++/4.3/i486-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/4.3/bits/basic_string.tcc

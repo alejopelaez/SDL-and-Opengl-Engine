@@ -1,0 +1,6 @@
+--SDL Example V:0.35 Initializing error log--
+
+Error loading texture Couldn't open Resources/Fonts/prueba ke no existe.png
+
+--Closing error log--
+

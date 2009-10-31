@@ -1,0 +1,26 @@
+#include "ImageLoader.h"
+
+int loadImage(const char *filename){
+    SDL_Surface *image = IMG_Load(filename);
+
+    if(!image){
+        logError("Unable to load the image %s %s", filename, SDL_GetError());
+        return GL_INVALID_OPERATION;
+    }
+
+    GLuint texture;
+    glPixelStorei(GL_UNPACK_ALIGNMENT,4);
+    glGenTextures(1, &texture);
+    glBindTexture(GL_TEXTURE_2D, texture);
+    
+    if (image->format->Amask){
+        gluBuild2DMipmaps(GL_TEXTURE_2D, 4,
+                          image->w, image->h, GL_RGBA,GL_UNSIGNED_BYTE, image->pixels);
+    }
+    else{
+        gluBuild2DMipmaps(GL_TEXTURE_2D, 3,
+                          image->w, image->h, GL_RGB, GL_UNSIGNED_BYTE, image->pixels);
+    }
+    SDL_FreeSurface(image);
+    return texture;
+}

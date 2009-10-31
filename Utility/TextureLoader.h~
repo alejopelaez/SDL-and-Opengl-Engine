@@ -1,0 +1,8 @@
+#ifndef IMAGE_LOADER
+#define IMAGE_LOADER
+#include "../Headers.h"
+#include "../Errors/ErrorLog.h"
+
+int loadImage(const char *filename);
+
+#endif
